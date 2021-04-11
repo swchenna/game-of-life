@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'nodejenkin'}
+    agent { label 'sample'}
     stages {
         stage('scm') {
             steps {
