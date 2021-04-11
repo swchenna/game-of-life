@@ -1,9 +1,9 @@
 pipeline {
-    agent { label 'calculator'}
+    agent { label 'ltecomm'}
     stages {
         stage('scm') {
             steps {
-                git 'https://github.com/wakaleo/game-of-life.git'        
+                git 'https://github.com/swchenna/game-of-life.git'        
             }
         }
         stage('build') {
